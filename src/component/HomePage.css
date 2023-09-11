@@ -1,0 +1,37 @@
+.home_page {
+    margin: 24px;
+    display: flex;
+    justify-content: center;
+}
+.chat_list_container {
+    width: 40%;
+}
+.chat_room {
+    width: 60%;
+}
+.chat_drawer .css-cveggr-MuiListItemIcon-root {
+    min-width: 36px;
+}
+.user_avatar {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 14px !important;
+}
+.chat_div {
+    padding: 0 !important;
+}
+.msg_input {
+    width: calc(100% - 288px);
+}
+
+@media only screen and (max-width: 700px) {
+    .chat_list_container {
+        width: 100%;
+    }
+    .chat_drawer {
+        display: none;
+    }
+    .msg_input {
+        width: calc(100% - 48px);
+    }
+}
